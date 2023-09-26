@@ -10,7 +10,6 @@ a {
 }
 
 .page__main {
-    /* Ảnh nền của trang đầu tiên nếu bạn muốn đổi thì đổi tại đây */
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
     margin: 0;
@@ -98,7 +97,7 @@ a {
 }
 
 .btn-gallery:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; 
     color: #fff;
     text-decoration: none;
 }

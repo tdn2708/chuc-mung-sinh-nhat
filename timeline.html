@@ -3,7 +3,6 @@
 <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="icon" type="image/png" href="./img/CILKGax.png">
-        <!-- Tiêu đề của trang dòng thời gian -->
 		<title>Thời gian đã trải qua</title>	    
         <link type="text/css" rel="stylesheet" href="./css/default.css">
         <link rel="stylesheet" href="./css/style.css">
@@ -29,7 +28,6 @@
              <div id="wrap">
                 <div id="text">
 			        <div id="code">
-					<!-- 4. CHỈNH SỬA LỜI CHÚC CỦA BẠN TẠI ĐÂY-->
 			      <font color="#3500ff"><span class="say">FROM NTD</span><br>
 						<span class="say">Idol đen xơ tíc tóc cơ</span><br>
 						<span class="say">Hôm nay là sinh nhật của idol</span><br>
@@ -42,7 +40,7 @@
       </div>
                 </div>
                 <div id="clock-box">
-					<span class="STYLE1"> Thời gian kể từ lúc Idol xuất hiện trên thế giới này!</span>  <!--Có thể thay đổi chổ này thành số tuổi của người bạn muốn chúc -->
+					<span class="STYLE1"> Thời gian kể từ lúc Idol xuất hiện trên thế giới này!</span>  
                   <div id="clock"></div>
               </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
@@ -50,7 +48,6 @@
             
         </div>
 
-    <!-- Phần nhạc -->
     <audio id="player" autoplay loop>
         <source src="./music/snvv.mp3" type="audio/mp3" />
     </audio>
@@ -181,7 +178,7 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    var year = 2007, month = 10, day = 2;  // 5. thay đổi ngày tháng năm yêu nhau tại đây hoặc ngày sinh của người mà bạn muốn chúc
+		    var year = 2007, month = 10, day = 2;  
 		    together.setFullYear(year, month - 1, day); 			
 		    together.setHours(0);							
 		    together.setMinutes(0);				
